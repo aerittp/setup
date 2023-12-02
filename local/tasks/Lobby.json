@@ -1,0 +1,53 @@
+{
+  "name": "Lobby",
+  "runtime": "jvm",
+  "hostAddress": null,
+  "javaCommand": "java",
+  "nameSplitter": "-",
+  "disableIpRewrite": false,
+  "maintenance": false,
+  "autoDeleteOnStop": true,
+  "staticServices": false,
+  "groups": [
+    "Lobby"
+  ],
+  "associatedNodes": [],
+  "deletedFilesAfterStop": [],
+  "processConfiguration": {
+    "environment": "MINECRAFT_SERVER",
+    "maxHeapMemorySize": 512,
+    "jvmOptions": [],
+    "processParameters": [],
+    "environmentVariables": {}
+  },
+  "startPort": 44955,
+  "minServiceCount": 1,
+  "templates": [
+    {
+      "prefix": "Lobby",
+      "name": "default",
+      "storage": "local",
+      "priority": 0,
+      "alwaysCopyToStaticServices": false
+    }
+  ],
+  "deployments": [],
+  "includes": [],
+  "properties": {
+    "requiredPermission": null,
+    "smartConfig": {
+      "enabled": false,
+      "priority": 10,
+      "maxServices": -1,
+      "preparedServices": 0,
+      "smartMinServiceCount": 0,
+      "splitLogicallyOverNodes": true,
+      "directTemplatesAndInclusionsSetup": true,
+      "templateInstaller": "INSTALL_ALL",
+      "autoStopTimeByUnusedServiceInSeconds": 180,
+      "percentOfPlayersToCheckShouldStopTheService": 0,
+      "forAnewInstanceDelayTimeInSeconds": 300,
+      "percentOfPlayersForANewServiceByInstance": 100
+    }
+  }
+}

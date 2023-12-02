@@ -1,0 +1,21 @@
+{
+  "name": "Global-Proxy",
+  "jvmOptions": [],
+  "processParameters": [],
+  "environmentVariables": {},
+  "targetEnvironments": [
+    "VELOCITY"
+  ],
+  "templates": [
+    {
+      "prefix": "Global",
+      "name": "Global-Proxy",
+      "storage": "local",
+      "priority": 0,
+      "alwaysCopyToStaticServices": false
+    }
+  ],
+  "deployments": [],
+  "includes": [],
+  "properties": {}
+}

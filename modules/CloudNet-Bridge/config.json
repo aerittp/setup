@@ -1,0 +1,32 @@
+{
+  "prefix": "§7Cloud §8| §b",
+  "localizedMessages": {
+    "default": {
+      "proxy-join-cancel-because-permission": "§7You do not have the required permissions to join this proxy.",
+      "proxy-join-cancel-because-maintenance": "§7This proxy is currently in maintenance mode.",
+      "already-connected": "§cYou are already connected to this network!",
+      "command-hub-no-server-found": "§7There is currently §cno §7hub server available.",
+      "proxy-join-disconnect-because-no-hub": "§cThere is currently no hub server you can connect to.",
+      "command-hub-success-connect": "§7You did successfully connect to %server%.",
+      "server-join-cancel-because-permission": "§7You do not have the required permissions to join this server.",
+      "command-hub-already-in-hub": "§cYou are already connected to a hub service.",
+      "server-join-cancel-because-maintenance": "§7This server is currently in maintenance mode.",
+      "error-connecting-to-server": "§cUnable to connect to %server%: %reason%",
+      "command-cloud-sub-command-no-permission": "§7You are not allowed to use §b%command%."
+    }
+  },
+  "excludedGroups": [],
+  "hubCommandNames": [
+    "hub",
+    "lobby",
+    "leave",
+    "l"
+  ],
+  "fallbackConfigurations": [
+    {
+      "targetGroup": "Proxy",
+      "defaultFallbackTask": "Lobby",
+      "fallbacks": []
+    }
+  ]
+}

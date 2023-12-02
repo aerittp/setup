@@ -1,0 +1,11 @@
+{
+  "name": "Proxy",
+  "jvmOptions": [],
+  "processParameters": [],
+  "environmentVariables": {},
+  "targetEnvironments": [],
+  "templates": [],
+  "deployments": [],
+  "includes": [],
+  "properties": {}
+}
